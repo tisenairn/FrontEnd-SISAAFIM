@@ -5,6 +5,7 @@
 .titu {
   color: white;
   font: 80px message-box;
-  text-align: center;
+  margin: 30px 0px 0px 0px;
+  text-align: left;
   letter-spacing: 20px;
 }

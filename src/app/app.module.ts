@@ -24,7 +24,6 @@ import {AccordionModule} from 'primeng/components/accordion/accordion';
     CoreModule,
     FormulariosModule,
     PaginasModule
-
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,60 @@
+<br><br><br><br><br><br><br><br>
+<div class="row">
+
+    <div class="input-field col s1 m1 l2 xl3"></div>
+
+    <div class="input-field col s1 m1 l2 xl6">  
+      <div class="container">
+        <div class="col xl12 l12 m12 s12">
+          <div class="card">
+            <div class="card-content">
+              <form ngForm method="POST">
+                
+                <div class="row">
+                  <div class="input-field col s1 m1 l2 xl4"></div>
+                  <div class="input-field col s1 m1 l2 xl5">
+                    <i class=" large material-icons">account_circle</i>
+                  </div>
+                  <div class="input-field col s1 m1 l2 xl3"></div>
+                </div>
+
+              <div class="row">
+          
+                <div class="input-field col s1 m1 l2 xl12">
+                    <input #matricula="ngModel" ngModel required="" type="text" name="matricula" id="matricula" class="validate"
+                    pattern="[A-Za-z\u00C0-\u00FF]{3,}.*">
+                    <label for="matricula">Matrícula</label>
+                    <span class="helper-text" data-error="Insira um matricula válido">
+                    Insira a matricula do usuário
+                    </span>
+                </div>
+
+              </div>
+      
+              <div class="row">
+                <div class="input-field col s1 m1 l2 xl12">
+                    <input #senha="ngModel" ngModel required="" type="text" name="senha" id="senha" class="validate"
+                    pattern="[A-Za-z\u00C0-\u00FF]{3,}.*">
+                    <label for="senha">Senha</label>
+                    <span class="helper-text" data-error="Insira um senha válido">
+                    Insira a senha do usuário
+                    </span>
+                </div>
+
+                <div class="alinhar input-field col s1 m1 l1 xl12">
+                        <button  class="btn-large blue" type="submit">
+                            <a [routerLink]="['/core']" style="color: white">Entrar</a>
+                        </button>
+                </div>
+              </div>
+
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+<div class="input-field col s1 m1 l2 xl3"></div>
+
+</div>
